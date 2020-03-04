@@ -1,0 +1,6 @@
+[submodule "code"]
+	path = code
+	url = https://github.com/goinaction/code.git
+[submodule "goaction"]
+	path = goaction
+	url = https://github.com/goinaction/code.git
