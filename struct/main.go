@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type contact struct {
-	emai     string
+	email     string
 	password string
 }
 
@@ -21,7 +21,7 @@ func main() {
 		firstName: "Barry",
 		lastName:  "Allen",
 		contact: contact{
-			emai:     "email.com",
+			email:     "email.com",
 			password: "123abc",
 		},
 	}
