@@ -15,7 +15,7 @@ This is similar to a class declaration in OOP languages
 */
 type deck []string
 
-/* (d deck) is the 'reciever' of the custom method (function) `print()` of our deck custom data-type
+/* (d deck) is the 'receiver' of the custom method (function) `print()` of our deck custom data-type
 1. d references the working copy of the deck variable calling the function print
 it is similar to `this` in JS and `self` in python.
 By convention in go the name of the ref are either the first letter or first two letters of the custom data-type
@@ -25,7 +25,7 @@ deck implies that every variable of type deck can call this function
 /*You can use key words as arguements---wiered!!
 Functions in go
 1. starts with the `func` keyword
-2. (ref to variable `d` custom data-type `deck`) recievers in paranthes
+2. (ref to variable `d` custom data-type `deck`) receivers in paranthes
 3. function name
 */
 func (d deck) print() {
